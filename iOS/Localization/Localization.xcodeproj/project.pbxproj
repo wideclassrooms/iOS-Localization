@@ -21,6 +21,9 @@
 		F781B4DE27B64CFC00CE3EAE /* LocalizationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F781B4DD27B64CFC00CE3EAE /* LocalizationUITestsLaunchTests.swift */; };
 		F781B4ED27B65DA100CE3EAE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F781B4EC27B65DA100CE3EAE /* GoogleService-Info.plist */; };
 		F781B4EF27B65FE800CE3EAE /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = F781B4EE27B65FE800CE3EAE /* RemoteConfigDefaults.plist */; };
+		F78BCF3327B665EA00CDE17A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78BCF3027B665EA00CDE17A /* Models.swift */; };
+		F78BCF3427B665EA00CDE17A /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78BCF3127B665EA00CDE17A /* RealmManager.swift */; };
+		F78BCF3527B665EA00CDE17A /* RealmThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78BCF3227B665EA00CDE17A /* RealmThread.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		F781B4DD27B64CFC00CE3EAE /* LocalizationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F781B4EC27B65DA100CE3EAE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F781B4EE27B65FE800CE3EAE /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		F78BCF3027B665EA00CDE17A /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F78BCF3127B665EA00CDE17A /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		F78BCF3227B665EA00CDE17A /* RealmThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmThread.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,7 @@
 		F781B4B927B64CF800CE3EAE /* Localization */ = {
 			isa = PBXGroup;
 			children = (
+				F78BCF2F27B665EA00CDE17A /* Database */,
 				F781B4BA27B64CF800CE3EAE /* AppDelegate.swift */,
 				F781B4BC27B64CF800CE3EAE /* SceneDelegate.swift */,
 				F781B4BE27B64CF800CE3EAE /* ViewController.swift */,
@@ -171,6 +178,16 @@
 				F781B4DD27B64CFC00CE3EAE /* LocalizationUITestsLaunchTests.swift */,
 			);
 			path = LocalizationUITests;
+			sourceTree = "<group>";
+		};
+		F78BCF2F27B665EA00CDE17A /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F78BCF3027B665EA00CDE17A /* Models.swift */,
+				F78BCF3127B665EA00CDE17A /* RealmManager.swift */,
+				F78BCF3227B665EA00CDE17A /* RealmThread.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,8 +432,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F781B4BF27B64CF800CE3EAE /* ViewController.swift in Sources */,
+				F78BCF3527B665EA00CDE17A /* RealmThread.swift in Sources */,
 				F781B4BB27B64CF800CE3EAE /* AppDelegate.swift in Sources */,
+				F78BCF3427B665EA00CDE17A /* RealmManager.swift in Sources */,
 				F781B4BD27B64CF800CE3EAE /* SceneDelegate.swift in Sources */,
+				F78BCF3327B665EA00CDE17A /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
