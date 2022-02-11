@@ -8,7 +8,7 @@ target 'Localization' do
 # Add the Firebase pod for Google Analytics
 pod 'Firebase/Analytics'
 pod 'FirebaseRemoteConfig'
-
+pod 'RealmSwift'
 # For Analytics without IDFA collection capability, use this pod instead
 # pod ‘Firebase/AnalyticsWithoutAdIdSupport’
 
