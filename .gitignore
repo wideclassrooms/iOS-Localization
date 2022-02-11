@@ -55,6 +55,7 @@ playground.xcworkspace
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 iOS/Localization/Pods/
+iOS/Localization/GoogleServices-Info.plist
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace
 Localization.xcworkspace
